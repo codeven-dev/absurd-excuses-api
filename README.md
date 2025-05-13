@@ -1,6 +1,5 @@
 
-# 📘 API de Excusas sin sentido
-
+# 📘 API de Excusas absurdas
 Una simple API REST creada con FastAPI que devuelve excusas aleatorias, absurdas y graciosas. Ideal como primer proyecto para aprender sobre desarrollo backend, rutas HTTP y entornos virtuales en Python.
 
 ## 🚀 ¿Qué hace esta API?
