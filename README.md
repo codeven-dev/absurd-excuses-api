@@ -24,7 +24,7 @@ Devuelve una excusa aleatoria.
 ## 📂 Estructura del Proyecto
 
 ```javascript
-frases-api/
+absurd-excuses-api/
 │
 ├── excusas.json           # Archivo con excusas
 ├── main.py                # Código principal de la API
