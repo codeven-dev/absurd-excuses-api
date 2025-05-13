@@ -8,7 +8,7 @@ import random
 # Creamos una instancia de la aplicación FastAPI
 app = FastAPI()
 
-# Abrimos el archivo frases.json en modo lectura y codificación utf-8
+# Abrimos el archivo excusas.json en modo lectura y codificación utf-8
 # Cargamos el contenido en la variable 'excusas'
 with open("excusas.json", "r", encoding="utf-8") as file:
     excusas = json.load(file)
@@ -16,7 +16,7 @@ with open("excusas.json", "r", encoding="utf-8") as file:
 # Ruta principal: muestra un mensaje de bienvenida
 @app.get("/")
 def home():
-    return {"mensaje": "Bienvenido a la API de excusas comunes"}
+    return {"mensaje": "Bienvenido a la API de excusas absurdas"}
 
 # Ruta para obtener todas las frases del archivo
 @app.get("/excusas")
