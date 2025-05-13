@@ -44,7 +44,6 @@ Clona el repositorio:
 
 ```bash
  git clone https://github.com/codeven-dev/absurd-excuses-api.git
- cd absurd-excuses-api
 ```
 
 Instala las dependencias:
